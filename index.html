@@ -45,7 +45,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
             rel="stylesheet" />
         <!-- Reset css -->
         <link rel="stylesheet" href="./asset/css/reset.css" />
@@ -55,7 +55,7 @@
     <body style="height: 5000px">
         <!-- Header -->
         <header class="header">
-            <section class="main-section">
+            <div class="main-section">
                 <div class="header-wrap">
                     <img src="./asset/img/logo.svg" alt="" class="header__logo" />
                     <nav class="header__nav">
@@ -78,12 +78,13 @@
                         <button class="btn cta-btn">Sign up</button>
                     </div>
                 </div>
-            </section>
+            </div>
         </header>
         <!-- Main -->
         <main>
-            <div class="hero">
-                <section class="main-section">
+            <!-- Hero -->
+            <section class="hero">
+                <div class="main-section">
                     <div class="hero-wrap">
                         <div class="hero__content">
                             <p class="hero-subtitle">😎 EASY LEAENING PLATFORM</p>
@@ -124,14 +125,18 @@
                             </div>
                         </figure>
                     </div>
-                </section>
-            </div>
-            <div class="features">
+                </div>
+            </section>
+
+            <!-- Features -->
+            <section class="features">
                 <section class="main-section">
                     <div class="feature-wrap">
                         <p class="sub-title">FEATURES</p>
-                        <h2 class="title lv2 feature__title">We are providing suitable features for students.</h2>
-                        <p class="desc feature__desc">
+                        <h2 class="title lv2 feature__title">
+                            We are providing suitable features for students.
+                        </h2>
+                        <p class="desc feature__desc line-clamp line-3">
                             Read our awesome feature that is absolutely suit for you. Explore the
                             feature and know the best.
                         </p>
@@ -142,7 +147,7 @@
                                     alt="live-icon"
                                     class="feature-img" />
                                 <h3 class="feature-name">Live Class</h3>
-                                <p class="feature-desc">
+                                <p class="feature-desc line-clamp line-3">
                                     We are providing live classes with the best teacher for you
                                 </p>
                             </div>
@@ -152,7 +157,7 @@
                                     alt="discuss-icon"
                                     class="feature-img" />
                                 <h3 class="feature-name">Discuss</h3>
-                                <p class="feature-desc">
+                                <p class="feature-desc line-clamp line-3">
                                     Conversation with teachers or another students about task or any
                                     other thing
                                 </p>
@@ -171,7 +176,73 @@
                         </div>
                     </div>
                 </section>
-            </div>
+            </section>
+
+            <section class="courses">
+                <div class="main-section">
+                    <div class="courses-wrap">
+                        <p class="sub-title">COURSES</p>
+                        <h2 class="title lv2 course-title">Popular Courses</h2>
+                        <div class="ovrview-info">
+                            <p class="desc line-clamp line-2">
+                                Check out our most poular courses that suit for you. Here you can
+                                find your favourite one.
+                            </p>
+                            <a href="#!" class="cta">View All Courses</a>
+                        </div>
+                        <div class="course-list">
+                            <div class="course-item">
+                                <div class="course-img">
+                                    <img src="./asset/img/courses-item-1.jpg" alt="" class="img" />
+                                </div>
+                                <div class="course-info">
+                                    <h3 class="course-name">Web Design</h3>
+                                    <p class="course-cost">
+                                        Fee <span class="present-cost">$200</span>
+                                    </p>
+                                    <p class="course-desc">Web design basic to higer level</p>
+                                    <div class="course-stats">
+                                        <span>40 Classes</span>
+                                        <span>3 Months</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-item">
+                                <div class="course-img">
+                                    <img src="./asset/img/courses-item-2.jpg" alt="" class="img" />
+                                </div>
+                                <div class="course-info">
+                                    <h3 class="course-name">Web Development</h3>
+                                    <p class="course-cost">
+                                        Fee <span class="present-cost">$250</span>
+                                    </p>
+                                    <p class="course-desc">Web development basic to higer level</p>
+                                    <div class="course-stats">
+                                        <span>30 Classes</span>
+                                        <span>3 Months</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="course-item">
+                                <div class="course-img">
+                                    <img src="./asset/img/courses-item-3.jpg" alt="" class="img" />
+                                </div>
+                                <div class="course-info">
+                                    <h3 class="course-name">UI/UX Design</h3>
+                                    <p class="course-cost">
+                                        Fee <span class="present-cost">$350</span>
+                                    </p>
+                                    <p class="course-desc">UI/UX design basic to higer level</p>
+                                    <div class="course-stats">
+                                        <span>50 Classes</span>
+                                        <span>4 Months</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>
