@@ -559,7 +559,7 @@ a {
 }
 
 .testimonial-wrap .feedback-content {
-    width: 36%;
+    width: 419px;
 }
 
 .testimonial-wrap blockquote {
@@ -598,20 +598,21 @@ a {
 }
 
 .testimonial-wrap .student-img {
-    width: 64%;
-    /* position: relative; */
+    /* width: 64%; */
     display: flex;
+    aspect-ratio: 1.7095;
 }
 .testimonial-wrap .student-img img {
     position: absolute;
     width: 78px;
+    /* flex: 1; */
     aspect-ratio: 1;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .testimonial-wrap .student-img img:first-child {
-    right: 171px;
+    left: 764px;
     align-self: center;
     width: 235px;
     background: #ff8282;
@@ -619,33 +620,33 @@ a {
 
 .testimonial-wrap .student-img img:nth-child(2) {
     top: 19px;
-    right: 0;
+    left: 1060px;
     width: 110px;
     background: #bf83ff;
 }
 
 .testimonial-wrap .student-img img:nth-child(3) {
     top: 0;
-    right: 443px;
+    left: 635px;
     width: 92px;
     background: #1ebfc1;
 }
 
 .testimonial-wrap .student-img img:nth-child(4) {
     top: 258px;
-    right: 601px;
+    left: 491px;
     background: #ffc147;
 }
 
 .testimonial-wrap .student-img img:nth-child(5) {
     bottom: 0;
-    right: 389px;
+    left: 703px;
     background: #ff947a;
 }
 
 .testimonial-wrap .student-img img:nth-child(6) {
     bottom: 29px;
-    right: 32px;
+    left: 1060px;
     background: #b1dfdc;
 }
 
@@ -674,4 +675,42 @@ a {
     color: #fff;
     border-radius: 14px;
     background: #2ac9bf;
+}
+
+/* footer */
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 130px 0 60px;
+}
+
+.footer-wrap h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.footer-wrap .list {
+    padding-top: 25px;
+}
+
+.footer-wrap .list a {
+    font-size: 1.6rem;
+    color: #535353;
+}
+
+.footer-wrap .list li {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer-wrap .social-list li {
+    display: flex;
+    align-items: center;
+}
+
+.footer-wrap .social-list a {
+    margin-left: 9px;
 }
