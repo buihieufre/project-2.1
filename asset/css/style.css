@@ -114,6 +114,10 @@ a {
     color: #2f3a3b;
 }
 
+.header__nav .nav-list a.active {
+    text-shadow: 1px 0;
+}
+
 .header__nav .nav-list a:hover {
     text-shadow: 1px 0;
 }
@@ -186,6 +190,9 @@ a {
 }
 
 .hero-cta .play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 50px;
     width: 62px;
     height: 62px;
@@ -193,6 +200,7 @@ a {
     border: transparent;
     box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
     background: #fff;
+    cursor: pointer;
 }
 
 .hero__info {
@@ -442,7 +450,7 @@ a {
 .course-item .img {
     width: 100%;
     border-radius: 8px;
-    opacity: 0.35;
+    opacity: 0.5;
     background: #d0efed;
     aspect-ratio: 84/100;
     object-fit: cover;
@@ -586,6 +594,9 @@ a {
 }
 
 .testimonial-wrap .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -697,12 +708,13 @@ a {
 }
 
 .footer-wrap .list a {
+    display: flex;
+    align-items: center;
     font-size: 1.6rem;
     color: #535353;
 }
 
 .footer-wrap .list li {
-    display: block;
     padding-bottom: 20px;
 }
 
@@ -711,6 +723,6 @@ a {
     align-items: center;
 }
 
-.footer-wrap .social-list a {
+.footer-wrap .social-name {
     margin-left: 9px;
 }
